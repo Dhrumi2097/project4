@@ -18,7 +18,7 @@ class Manager(Employee):
             self.department=department
             
          def getInfo(self):
-            print(f"manid :{self.manid} Name :{self.name} Age :{self.age} Salary:{self.salary} Department:{self.department}")
+            print(f"manid :{self.empid} Name :{self.name} Age :{self.age} Salary:{self.salary} Department:{self.department}")
     
     
 class Developer(Employee):
@@ -27,7 +27,7 @@ class Developer(Employee):
             self.language=language
             
          def getInfo(self):
-            print(f"devid :{self.devid} Name :{self.name} Age :{self.age} Salary:{self.salary} Language:{self.language}")
+            print(f"devid :{self.empid} Name :{self.name} Age :{self.age} Salary:{self.salary} Language:{self.language}")
 
 
 while True:
@@ -122,3 +122,4 @@ while True:
      
         
             
+
